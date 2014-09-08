@@ -1,45 +1,35 @@
 @charset "UTF-8";
 body{
-	background: url('../images/background.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  	background-position: cover;
-  	width: 100%;
-  	
-
-}
-
-.header {
-background-image: url("../images/stripes.png");
-background-repeat: repeat-x;
-margin: -10px;
-
+	width: 1374px;
+	height: 800px;
+	background: url('../images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+	margin-top: -3px;
+	margin-left: -3px;
+	margin-bottom: -3px;
 }
 
 .container {
-	padding-top: 370px;
+	padding-top: 350px;
 	padding-left:80px;
 	
 }
 
 .container hr {
 	width: 40px;
-	background-color: red;
-	border:red;
-	height: 5px;
+	color: red;
+	height: 2px;
 	margin-left: 0px;	
 }
-
-
 	
 .container p {
 	
 	padding-bottom:10px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:400;
-	font-size:20px;
+	font-weight:300;
+	font-size:18px;
 	color:white;
-	
+	letter-spacing: 1px;
 }
